@@ -3,4 +3,3 @@
 #
 ###### Requirements without Version Specifiers ######
 scrapy
-json
