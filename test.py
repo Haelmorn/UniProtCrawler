@@ -1,5 +1,4 @@
 import json
-import pandas
 import csv
 
 genelist = [
@@ -119,7 +118,7 @@ genelist = [
 ]
 
 
-with open("results_kingdom_gene.json", "r") as read_file:
+with open("fasta_seqs.json", "r") as read_file:
     data = json.load(read_file)
 
 dictlist = []
@@ -138,5 +137,6 @@ for gene in genelist:
 
 with open("output.csv", "w") as output:
     writer = csv.writer(output)
-    for key, value in number.items():
-        writer.writerow([key, value])
+    for row in data:
+        for key, value in row.items():
+            writer.writerow([key, value])
