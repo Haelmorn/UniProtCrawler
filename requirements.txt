@@ -1,0 +1,6 @@
+#
+####### uniparser-requirements.txt #######
+#
+###### Requirements without Version Specifiers ######
+scrapy
+json
