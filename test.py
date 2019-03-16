@@ -118,7 +118,7 @@ genelist = [
 ]
 
 
-with open("fasta_seqs.json", "r") as read_file:
+with open("result.json", "r") as read_file:
     data = json.load(read_file)
 
 dictlist = []

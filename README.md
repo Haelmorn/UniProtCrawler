@@ -1,4 +1,4 @@
-# ProteinInfoScraper
+# UniProtCrawler
 
 A simple web scraper designed to gather information about proteins.
 

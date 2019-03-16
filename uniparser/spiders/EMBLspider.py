@@ -128,4 +128,3 @@ class UniprotSpider(scrapy.Spider):
 
     def parse(self, response):
         yield {"Nuc_sequence": response.xpath("//body//text()").get()}
-
