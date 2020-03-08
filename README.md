@@ -24,7 +24,7 @@ In order to set a protein or nucleotide sequence you want to obtain, please edit
 
 or
 
-upfastalist` variable found in `./spiders/upfasta.py`
+`upfastalist` variable found in `./spiders/upfasta.py`
 
 Scrapy operates as a CLI program. To run any of the crawlers, navigate to the project main directory and run:
 
